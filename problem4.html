@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Card</title>
+    <style>
+        #container {
+            height: 100vh;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            
+        }
+
+        #info {
+            text-align: center;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .stars {
+            font-size: 24px;
+            color: #0e0d0d;
+        }
+
+        .panda-img {
+            width: 200px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px; 
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Title</h1>
+        <h2>Panda Card</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDeGyRvm0Q8YvSGarJALxjspoxkYIwOPEKCfl9SiigKZSaSKagRzuL6OziM8knfsK4Bvw&usqp=CAU"
+            alt="panda" class="panda-img">
+        <div id="info">
+            <h3>John Doe</h3>
+            <p>Computer Science 1</p>
+            <p>Computer Science 2</p>
+            <p>Year: 3</p>
+            <div class="stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
